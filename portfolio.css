@@ -148,3 +148,26 @@ body {
   color: #cbd5f5;
   border-top: 1px solid #334155;
 }
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.profile-pic img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4f46e5;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic img:hover {
+  transform: scale(1.08);
+}
+.header {
+  text-align: center;
+  padding: 40px 20px;
+}
